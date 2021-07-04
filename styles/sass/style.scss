@@ -1,0 +1,320 @@
+html, body, ul, li, a, nav, div, section
+{
+  font-family: 'Poiret One', regular;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a:hover {
+  text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+body {
+  //background-color: black;
+}
+
+h1 {
+  font-size: 120pt;
+  text-transform: uppercase;
+  z-index: 51;
+}
+h2 {
+  text-transform: uppercase;
+  font-size: 65pt;
+}
+
+h3 {
+  font-size: 55pt;
+  text-transform: uppercase;
+}
+h4 {
+  font-size: 35pt;
+}
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 30pt;
+  z-index: 50;
+  text-align: justify;
+}
+
+section {
+  position: relative;
+  overflow: hidden;
+  .main-cont {
+    min-height: 1000px;
+  }
+}
+
+/* MAIN */
+#main{
+  background: url('https://image.ibb.co/kYGX5G/main_bg.jpg') no-repeat center center;
+  nav {
+    position: fixed ;
+    z-index: 100;
+    font-size: 34pt;
+    text-transform: uppercase;
+    color: #708e9f;
+    max-height: 170px;
+    //background-color: white !important;
+    transition: all 200ms cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    ul {
+      li {
+
+        padding: 50px 0px;
+
+        &:hover {
+          color: white !important;
+
+        }
+      }
+    }
+    .logo-cont {
+      text-align: center;
+      //height: 10px;
+      img {
+        //display: inline-block;
+      }
+    }
+    .underscore {
+      border-bottom: 2px solid white;
+      border-width: 0px;
+
+      transition: all 200ms cubic-bezier(0.755, 0.05, 0.855, 0.06);
+
+      &:hover {
+        color: white;
+        border-width: 7px;
+        transition: all 200ms cubic-bezier(0.23, 1, 0.32, 1);
+        cursor: pointer;
+      }
+    }
+  }
+  .scrolled {
+    background-color: black !important;
+    color: #5bc0de;
+    transition: all 200ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  .small-item {
+    background-color: rgba(0, 0, 0, .7);
+    width: 100%;
+    font-size: 25pt;
+    padding: 20px;
+    margin: 0;
+    height: 0;
+    text-align: center;
+    transition: all 200ms cubic-bezier(0.23, 1, 0.32, 1);
+    cursor: pointer;
+  }
+  .open-height {
+    height: auto;
+    transition: all 200ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+
+  h3 {
+    padding-top: 500px;
+    //text-align: right;
+  }
+  h4 {
+    margin-top: 250px;
+    //margin-top: 300px;
+
+  }
+}
+
+#real-paradise {
+  background: url('https://image.ibb.co/eXAs5G/real_paradise_bg.jpg') no-repeat 0 0;
+  min-width: 100%;
+  background-size: cover;
+  p {
+    margin-top: 100px;
+    color: white;
+
+  }
+  h1 {
+    padding-top: 50px;
+    color: #70cefa;
+  }
+  img {
+    margin-top: 50px;
+
+  }
+  .slide {
+  }
+}
+
+#feel-the-freedom {
+  background: url('https://image.ibb.co/ig8qsw/feel_the_freedom_bg.jpg') no-repeat 0 0;
+  h1 {
+    color: #6b5336;
+    position: absolute;
+    bottom: 5%;
+    //margin-top: -150px;
+    //margin-bottom: 80px;
+  }
+  p {
+    margin-top: 100px;
+    color: #053658;
+    padding: 70px;
+  }
+  .bg {
+  }
+  .side {
+    min-height: 1000px;
+    background-image: url('https://image.ibb.co/nLgoeb/feel_the_freedom_bg_2.jpg');
+    background-size: cover;
+  }
+
+  .left {
+    background-position: 0 0;
+  }
+  .right {
+    background-position: 100% 0;
+  }
+}
+
+#gallery {
+
+  background: url('https://image.ibb.co/fXGMzb/gallery_bg.jpg') no-repeat 0 0;
+  .main-cont {
+    min-height: auto;
+  }
+  .item {
+    padding-left: 0 !important;
+    background-size: contain;
+    background-origin: padding-box;
+    position: relative;
+    overflow: hidden;
+    height: 850px;
+    cursor: pointer;
+    -webkit-transition: all 200ms cubic-bezier(0.77, 0, 0.175, 1);
+    transition:         all 200ms cubic-bezier(0.77, 0, 0.175, 1);
+  }
+  .gallery-item {
+    height: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100%;
+
+  }
+  .gallery-item-1 {
+    background: url('https://image.ibb.co/e4JZKb/gallery_item_serf.jpg') no-repeat 50% 50%;
+    background-size: cover;
+  }
+  .gallery-item-2 {
+    background: url('https://image.ibb.co/cOEkQG/gallery_item_resorts.jpg') no-repeat 50% 50%;
+    background-size: cover;
+  }
+  .gallery-item-3 {
+    background: url('https://image.ibb.co/g4uVsw/gallery_item_events.jpg') no-repeat 50% 50%;
+    background-size: cover;
+  }
+  .gallery-item-4 {
+    background: url('https://image.ibb.co/fgMoeb/gallery_item_ocean.jpg') no-repeat 50% 50%;
+    background-size: cover;
+  }
+  .mask {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 55;
+    position: absolute;
+    transition: opacity 200ms cubic-bezier(0.755, 0.05, 0.855, 0.06);
+
+  }
+  h2 {
+    display: inline-block;
+    position: absolute;
+    bottom: 50%;
+    opacity: 0;
+    width: 100%;
+    letter-spacing: 20px;
+    color: white;
+    z-index: 80;
+
+    transition: opacity 200ms cubic-bezier(0.755, 0.05, 0.855, 0.06);
+  }
+  .mask-1 {
+    background-color: #c89949;
+  }
+  .mask-2 {
+    background-color: #69b7f6;
+  }
+  .mask-3 {
+    background-color: #131b27;
+  }
+  .mask-4 {
+    background-color: #092026;
+  }
+}
+
+#garden {
+  .main-cont {
+    min-height: 0;
+  }
+  background: url('https://image.ibb.co/i6uwXw/garden_bg.jpg') no-repeat 0 0;
+  .row {
+    //height: auto;
+  }
+  .bg-2 {
+    //margin-top: 150px;
+    background-size: cover;
+    //background-origin: padding-box;
+    //position: relative;
+    overflow: hidden;
+    max-height: 450px;
+    //height: auto;
+  }
+  .content {
+    //margin-top: 150px;
+    background-color: rgba(20, 34, 95, 0.7);
+  }
+  p {
+    color: white;
+    margin: 50px;
+    padding: 0;
+  }
+}
+
+#clear-blue-water {
+  background: url('https://image.ibb.co/hWsfQG/clear_blue_water_bg.jpg') no-repeat 0 0;
+  h1 {
+    position: absolute;
+    margin-top: 100px;
+    color: #20a6c3;
+  }
+  .video {
+    margin-top: 250px;
+    height: 700px;
+  }
+}
+
+.row {
+  //width: 100% !important;
+}
+/* ROW NO PADDING */
+.row-no-padding {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.row-no-padding-left {
+    padding-left: 0 !important;
+}
+.row-no-padding-right {
+  padding-right: 0 !important;
+}
+
+
+
+
+
+
+
+
+
+

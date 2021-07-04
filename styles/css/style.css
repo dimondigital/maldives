@@ -1,0 +1,343 @@
+html, body, ul, li, a, nav, div, section {
+  font-family: 'Poiret One', regular;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+h1 {
+  font-size: 120pt;
+  text-transform: uppercase;
+  z-index: 51;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 65pt;
+}
+
+h3 {
+  font-size: 55pt;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 35pt;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 30pt;
+  z-index: 50;
+  text-align: justify;
+}
+
+section {
+  position: relative;
+  overflow: hidden;
+}
+
+section .main-cont {
+  min-height: 1000px;
+}
+
+/* MAIN */
+#main {
+  background: url("https://image.ibb.co/kYGX5G/main_bg.jpg") no-repeat center center;
+}
+
+#main nav ul li > img {
+  max-width: 200px !important;
+  text-align: center !important;
+  /*display: inline !important;*/
+}
+
+#main nav {
+  position: fixed;
+  z-index: 100;
+  font-size: 34pt;
+  text-transform: uppercase;
+  color: #708e9f;
+  max-height: 2.5em;
+  transition: all 200ms cubic-bezier(0.755, 0.05, 0.855, 0.06);
+}
+
+#main nav ul li {
+  font-size: 0.7em;
+  padding: 1em 0px;
+  text-align: center;
+}
+
+#main nav ul li:hover {
+  color: white !important;
+}
+
+#main nav .logo-cont {
+  transition: all ease-in 0.3s;
+  max-width: 80%;
+  /*padding: 1em;*/
+  text-align: center;
+}
+
+#main nav .underscore {
+  border-bottom: 2px solid white;
+  border-width: 0px;
+  transition: all 200ms cubic-bezier(0.755, 0.05, 0.855, 0.06);
+}
+
+#main nav .underscore:hover {
+  color: white;
+  border-width: 7px;
+  transition: all 200ms cubic-bezier(0.23, 1, 0.32, 1);
+  cursor: pointer;
+}
+
+#main .scrolled {
+  background-color: black !important;
+  color: #5bc0de;
+  transition: all 200ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+#main .small-item {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  font-size: 25pt;
+  padding: 20px;
+  margin: 0;
+  height: 0;
+  text-align: center;
+  transition: all 200ms cubic-bezier(0.23, 1, 0.32, 1);
+  cursor: pointer;
+}
+
+#main .open-height {
+  height: auto;
+  transition: all 200ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+#main h3 {
+  padding-top: 500px;
+}
+
+#main h4 {
+  margin-top: 250px;
+}
+
+#real-paradise {
+  background: url("https://image.ibb.co/eXAs5G/real_paradise_bg.jpg") no-repeat 0 0;
+  min-width: 100%;
+  background-size: cover;
+}
+
+#real-paradise p {
+  margin-top: 100px;
+  color: white;
+}
+
+#real-paradise h1 {
+  padding-top: 50px;
+  color: #70cefa;
+}
+
+#real-paradise img {
+  margin-top: 50px;
+}
+
+#feel-the-freedom {
+  background: url("https://image.ibb.co/ig8qsw/feel_the_freedom_bg.jpg") no-repeat 0 0;
+}
+
+#feel-the-freedom h1 {
+  color: #6b5336;
+  position: absolute;
+  bottom: 5%;
+}
+
+#feel-the-freedom p {
+  margin-top: 100px;
+  color: #053658;
+  padding: 70px;
+}
+
+#feel-the-freedom .side {
+  min-height: 1000px;
+  background-image: url("https://image.ibb.co/nLgoeb/feel_the_freedom_bg_2.jpg");
+  background-size: cover;
+}
+
+#feel-the-freedom .left {
+  background-position: 0 0;
+}
+
+#feel-the-freedom .right {
+  background-position: 100% 0;
+}
+
+#gallery {
+  background: url("https://image.ibb.co/fXGMzb/gallery_bg.jpg") no-repeat 0 0;
+}
+
+#gallery .main-cont {
+  min-height: auto;
+}
+
+#gallery .item {
+  padding-left: 0 !important;
+  background-size: contain;
+  background-origin: padding-box;
+  position: relative;
+  overflow: hidden;
+  height: 850px;
+  cursor: pointer;
+  -webkit-transition: all 200ms cubic-bezier(0.77, 0, 0.175, 1);
+  transition: all 200ms cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+#gallery .gallery-item {
+  height: 100%;
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 100%;
+}
+
+#gallery .gallery-item-1 {
+  background: url("https://image.ibb.co/e4JZKb/gallery_item_serf.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+#gallery .gallery-item-2 {
+  background: url("https://image.ibb.co/cOEkQG/gallery_item_resorts.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+#gallery .gallery-item-3 {
+  background: url("https://image.ibb.co/g4uVsw/gallery_item_events.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+#gallery .gallery-item-4 {
+  background: url("https://image.ibb.co/fgMoeb/gallery_item_ocean.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+#gallery .mask {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 55;
+  position: absolute;
+  transition: opacity 200ms cubic-bezier(0.755, 0.05, 0.855, 0.06);
+}
+
+#gallery h2 {
+  display: inline-block;
+  position: absolute;
+  bottom: 50%;
+  opacity: 0;
+  width: 100%;
+  letter-spacing: 20px;
+  color: white;
+  z-index: 80;
+  transition: opacity 200ms cubic-bezier(0.755, 0.05, 0.855, 0.06);
+}
+
+#gallery .mask-1 {
+  background-color: #c89949;
+}
+
+#gallery .mask-2 {
+  background-color: #69b7f6;
+}
+
+#gallery .mask-3 {
+  background-color: #131b27;
+}
+
+#gallery .mask-4 {
+  background-color: #092026;
+}
+
+#garden {
+  background: url("https://image.ibb.co/i6uwXw/garden_bg.jpg") no-repeat 0 0;
+}
+
+#garden .main-cont {
+  min-height: 0;
+}
+
+#garden .bg-2 {
+  background-size: cover;
+  overflow: hidden;
+  max-height: 450px;
+}
+
+#garden .content {
+  background-color: rgba(20, 34, 95, 0.7);
+}
+
+#garden p {
+  color: white;
+  margin: 50px;
+  padding: 0;
+}
+
+#clear-blue-water {
+  background: url("https://image.ibb.co/hWsfQG/clear_blue_water_bg.jpg") no-repeat 0 0;
+}
+
+#clear-blue-water h1 {
+  position: absolute;
+  margin-top: 100px;
+  color: #20a6c3;
+}
+
+#clear-blue-water .video {
+  max-width: 100vw;
+  margin-top: 250px;
+  height: 700px;
+}
+
+.txt-agn-lft {
+  text-align: left !important;
+}
+
+.txt-agn-ctr {
+  text-align: center !important;
+}
+
+/* ROW NO PADDING */
+.row-no-padding {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.row-no-padding-left {
+  padding-left: 0 !important;
+}
+
+.row-no-padding-right {
+  padding-right: 0 !important;
+}
+
+.drp-shdw {
+  filter: drop-shadow(0.03em 0.01em 0.2px black);
+}
+
+.drp-shdw-green {
+  filter: drop-shadow(0.03em 0.01em 0.2px #114444);
+}
+
+.drp-shdw-blue {
+  filter: drop-shadow(0.03em 0.01em 0.2px #01ffff);
+  filter: blur(2px)
+}
